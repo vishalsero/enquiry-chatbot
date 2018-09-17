@@ -14,6 +14,15 @@
            }
            var sessionID = makeid();
     var baseUrl = "https://api.dialogflow.com/v1/";
+	
+$(function(){
+$("#program").change(function(){
+     var program = this.value;
+     alert(program);
+  
+  });
+
+});
     $(document).ready(function() {
         $("#input").keypress(function(event) {
             if (event.which == 13) {
