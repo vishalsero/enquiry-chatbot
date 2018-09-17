@@ -15,7 +15,7 @@
            var sessionID = makeid();
     var baseUrl = "https://api.dialogflow.com/v1/";
 	
-$(function(){
+ $(document).ready(function() {
 $("#program").change(function(){
      var program = this.value;
      alert(program);
