@@ -18,7 +18,7 @@
  $(document).ready(function() {
 $("#program").change(function(){
      var program = this.value;
-     alert(program);
+     console.log(program);
   
   });
 
